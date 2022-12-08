@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import { useEffect, useRef, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { FaSearch } from 'react-icons/fa';
@@ -11,6 +12,9 @@ import Section from 'components/Section';
 
 import styles from './Nav.module.scss';
 import NavListItem from 'components/NavListItem';
+
+import Image from 'next/image';
+import logo from '../Images/logo.svg';
 
 const SEARCH_VISIBLE = 'visible';
 const SEARCH_HIDDEN = 'hidden';
@@ -179,7 +183,9 @@ const Nav = () => {
       <Section className={styles.navSection}>
         <p className={styles.navName}>
           <Link href="/">
-            <a>{title}</a>
+            <a>
+              <Image src={logo} />
+            </a>
           </Link>
         </p>
         <ul className={styles.navMenu}>

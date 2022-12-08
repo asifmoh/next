@@ -5,7 +5,7 @@ import styles from './Image.module.scss';
 const Image = ({
   children,
   className,
-  width = '100%',
+  width = '90%',
   height = 'auto',
   src,
   alt,
