@@ -1,0 +1,6 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.shongshoy.www.twa",
+                 "sha256_cert_fingerprints": ["01:68:19:EF:33:12:23:62:01:8C:B4:DF:8A:84:AF:80:97:98:62:CA:B2:9A:CE:9A:78:93:74:50:AB:F8:7C:FD"] }
+  }]
+

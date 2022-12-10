@@ -27,7 +27,7 @@ const nextConfig = {
 
     // By default, only render this number of post pages ahead of time, otherwise
     // the rest will be rendered on-demand
-    POSTS_PRERENDER_COUNT: 5,
+    POSTS_PRERENDER_COUNT: 9,
 
     WORDPRESS_GRAPHQL_ENDPOINT: 'https://www.shongshoy.com/graphql',
     WORDPRESS_MENU_LOCATION_NAVIGATION: process.env.WORDPRESS_MENU_LOCATION_NAVIGATION || 'PRIMARY',
