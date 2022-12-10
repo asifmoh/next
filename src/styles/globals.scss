@@ -7,7 +7,6 @@
 
 html,
 body {
-  font-size: 20px;
   font-family: Kalpurush, Arial, sans-serif, -apple-system, BlinkMacSystemFont !important;
   padding: 0;
   margin: 0;
@@ -414,10 +413,6 @@ body.custom-background {
   text-align: justify;
 }
 
-.toc_container ul li {
-  font-size: 14px;
-}
-
 .um_request_name {
   display: none !important;
 }
@@ -589,31 +584,8 @@ h6 {
   font-size: 1.2em;
 }
 
-.main-navigation ul li a {
-  font-size: 20px;
-}
 #site-navigation {
   background-color: #3b0404;
-}
-
-.main-navigation ul li a,
-p,
-pre,
-sup,
-ol.footnotes li,
-div,
-li,
-blockquote p,
-ol.footnotes li,
-li a {
-  font-size: 18px;
-}
-
-.main-navigation ul li .sub-arrow,
-.super-menu .toggle-mobile-menu,
-.toggle-mobile-menu:before,
-.mobile-menu-active .smenu-hide {
-  font-size: 24px;
 }
 
 a:link {
@@ -678,7 +650,6 @@ blockquote p,
 blockquote p:before,
 .wp-block-quote p:before {
   color: #222;
-  font-size: 22px;
 }
 blockquote a:link,
 .wp-block-quote a:link {
@@ -700,12 +671,6 @@ blockquote a:hover,
 }
 .footer-socket-wrapper .copyright a {
   color: #64c1ff;
-}
-#content .post .article-content .below-entry-meta .posted-on a,
-#content .post .article-content .below-entry-meta .byline a,
-#content .post .article-content .below-entry-meta .comments a,
-#content .post .article-content .below-entry-meta .tag-links a {
-  font-size: 18px;
 }
 
 .slider-featured-image a img {

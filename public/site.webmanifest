@@ -1,19 +1,12 @@
-{
-  "name": "Shongshoy Next.js",
-  "short_name": "Shongshoy",
-  "icons": [
-    {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "theme_color": "#000000",
-  "background_color": "#000000",
-  "display": "standalone"
-}
+{"name":"Shongshoy","short_name":"Shongshoy","description":"\u09b8\u0982\u09b6\u09af\u09bc - \u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ae\u09c1\u0995\u09cd\u09a4\u09bf\u09b0 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8","icons": [
+  {
+    "src": "/android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "/android-chrome-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+],"background_color":"#e5eced","theme_color":"#e5eced","display":"standalone","dir":"ltr","orientation":"portrait","start_url":".","categories":"","scope":"\/","shortcuts":[{"name":"","short_name":"","description":"","url":"\/","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192"}],"categories":null,"shortcode":{"name":"","short_name":"","description":"","url":"\/"}}]}
