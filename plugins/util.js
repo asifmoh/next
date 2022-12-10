@@ -177,7 +177,7 @@ async function getSiteMetadata(apolloClient, process, verbose = false) {
 async function getPages(apolloClient, process, verbose = false) {
   const query = gql`
     {
-      pages(first: 10000) {
+      pages(first: 10000, where: { author: 2 }) {
         edges {
           node {
             slug

@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { useEffect, useRef, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { FaSearch } from 'react-icons/fa';
@@ -183,9 +182,7 @@ const Nav = () => {
       <Section className={styles.navSection}>
         <p className={styles.navName}>
           <Link href="/">
-            <a>
-              <Image src={logo} />
-            </a>
+            <Image src={logo} alt={title} />
           </Link>
         </p>
         <ul className={styles.navMenu}>
@@ -217,7 +214,7 @@ const Nav = () => {
                     {results.map(({ slug, title }, index) => {
                       return (
                         <li key={slug}>
-                          <Link tabIndex={index} href={postPathBySlug(slug)}>
+                          <Link tabIndex={index} href={postPathBySlug(slug)} legacyBehavior>
                             <a>{title}</a>
                           </Link>
                         </li>

@@ -87,7 +87,7 @@ export default function Page({ page, breadcrumbs }) {
                   {children.map((child) => {
                     return (
                       <li key={child.id}>
-                        <Link href={child.uri}>
+                        <Link href={child.uri} legacyBehavior>
                           <a>{child.title}</a>
                         </Link>
                       </li>
