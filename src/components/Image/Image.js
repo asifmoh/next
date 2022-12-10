@@ -2,17 +2,7 @@ import ClassName from 'models/classname';
 
 import styles from './Image.module.scss';
 
-const Image = ({
-  children,
-  className,
-  width = '90%',
-  height = 'auto',
-  src,
-  alt,
-  srcSet,
-  sizes,
-  dangerouslySetInnerHTML,
-}) => {
+const Image = ({ children, className, src, alt, dangerouslySetInnerHTML }) => {
   const imageClassName = new ClassName(styles.image);
 
   imageClassName.addIf(className, className);
@@ -20,7 +10,7 @@ const Image = ({
   return (
     <figure className={imageClassName.toString()}>
       <div className={styles.featuredImageImg}>
-        <img width={width} height={height} src={src} alt={alt || ''} srcSet={srcSet} sizes={sizes} />
+        <img src={src} alt={alt || ''} />
       </div>
       {children && <figcaption>{children}</figcaption>}
       {dangerouslySetInnerHTML && (
