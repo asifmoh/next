@@ -163,6 +163,9 @@
   padding: 0;
   margin: 0;
 
+  @media (max-width: 480px) {
+    font-size: 0.7em;
+  }
   li {
     position: relative;
     z-index: 1;

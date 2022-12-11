@@ -15,8 +15,6 @@ import NavListItem from 'components/NavListItem';
 import Image from 'next/image';
 import logo from '../Images/logo.svg';
 import React from 'react';
-import { GhostNavbar } from 'react-hamburger-menus';
-import 'react-hamburger-menus/dist/style.css';
 
 const SEARCH_VISIBLE = 'visible';
 const SEARCH_HIDDEN = 'hidden';
@@ -189,38 +187,11 @@ const Nav = () => {
           </Link>
         </p>
 
-        <div>
-          <GhostNavbar
-            styles={{
-              floatButtonY: 40,
-              floatButtonX: 30,
-              listHoverColor: '#F6E4F4',
-              navigationCard: {
-                backgroundColor: '#ffff',
-              },
-              navigationButton: {
-                borderRadius: '10px',
-                border: '2px solid #F6E4F4',
-                // In case you need static not fixed
-                // position: "static",
-                width: '5em',
-                height: '4em',
-                backgroundColor: '#8D0083',
-                zIndex: 10,
-              },
-              navigationIcon: {
-                zIndex: 10,
-              },
-              iconColor: '#fff',
-            }}
-          >
-            <ul className={styles.navMenu}>
-              {navigation?.map((listItem) => {
-                return <NavListItem key={listItem.id} className={styles.navSubMenu} item={listItem} />;
-              })}
-            </ul>
-          </GhostNavbar>
-        </div>
+        <ul className={styles.navMenu}>
+          {navigation?.map((listItem) => {
+            return <NavListItem key={listItem.id} className={styles.navSubMenu} item={listItem} />;
+          })}
+        </ul>
 
         <div className={styles.navSearch}>
           {searchVisibility === SEARCH_HIDDEN && (

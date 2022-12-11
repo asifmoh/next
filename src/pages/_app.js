@@ -12,6 +12,7 @@ import { getAllMenus } from 'lib/menus';
 import 'styles/globals.scss';
 import 'styles/wordpress.scss';
 import 'styles/fonts.scss';
+
 import variables from 'styles/_variables.module.scss';
 
 function App({ Component, pageProps = {}, metadata, recentPosts, categories, menus }) {
