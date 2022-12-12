@@ -186,13 +186,11 @@ const Nav = () => {
             <Image src={logo} alt={title} />
           </Link>
         </p>
-
         <ul className={styles.navMenu}>
           {navigation?.map((listItem) => {
             return <NavListItem key={listItem.id} className={styles.navSubMenu} item={listItem} />;
           })}
         </ul>
-
         <div className={styles.navSearch}>
           {searchVisibility === SEARCH_HIDDEN && (
             <button onClick={handleOnToggleSearch} disabled={!searchIsLoaded}>
