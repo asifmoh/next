@@ -83,6 +83,10 @@ figcaption {
   right: 50%;
 }
 
+.wp-block-image {
+  margin-bottom: 1rem;
+}
+
 .wp-block-image img {
   @apply max-w-full mt-2;
 }
@@ -481,7 +485,7 @@ ol.footnotes {
   color: #666666;
 }
 ol.footnotes li {
-  font-size: 80%;
+  font-size: 100%;
 }
 
 h1,
@@ -625,9 +629,11 @@ a:hover {
   margin-bottom: 2rem;
 }
 .toc_title {
-  padding: 10px 0 0 20px;
+  padding: -0.5rem 0 0 20px;
 }
-
+.su-post {
+  font-size: 1.2rem;
+}
 #content .post img {
   border-radius: 10px;
 }
@@ -641,6 +647,7 @@ a:hover {
   padding-right: 1.75em;
   padding-bottom: 1.5em;
   padding-left: 1.75em;
+  margin-bottom: 2rem;
 }
 
 blockquote p,

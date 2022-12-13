@@ -39,6 +39,7 @@ const Metadata = ({ className, author, date, categories, options = DEFAULT_METAD
           </address>
         </li>
       )}
+
       {date && (
         <li>
           <time pubdate="pubdate" dateTime={date}>

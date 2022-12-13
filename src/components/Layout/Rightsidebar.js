@@ -3,25 +3,25 @@ import Link from 'next/link';
 export default function Rightsidebar() {
   return (
     <div id="secondary">
-      <aside id="custom_html-5" className="widget_text widget widget_custom_html clearfix">
+      <aside className="widget widget_block clearfix">
         <h3 className="widget-title">
           <span>পরিবেশ সচেতন হোন</span>
         </h3>
-        <div className="textwidget custom-html-widget">
+        <div>
           <ul>
-            <li>পলিথিন, প্লাস্টিকের পণ্য ব্যবহার বন্ধ করুন।</li>
-            <li>যেখানে সেখানে ময়লা আবর্জনা ফেলবেন না।</li>
-            <li>পুকুরে, নদীতে বা সমুদ্রে কখনোই আবর্জনা ফেলবেন না।</li>
-            <li>এই পৃথিবীই আমাদের একমাত্র গ্রহ, আমাদের একমাত্র আবাস। একে সুস্থ রাখুন।</li>
-            <li>
+            <li className="su-post ">পলিথিন, প্লাস্টিকের পণ্য ব্যবহার বন্ধ করুন।</li>
+            <li className="su-post ">যেখানে সেখানে ময়লা আবর্জনা ফেলবেন না।</li>
+            <li className="su-post ">পুকুরে, নদীতে বা সমুদ্রে কখনোই আবর্জনা ফেলবেন না।</li>
+            <li className="su-post ">এই পৃথিবীই আমাদের একমাত্র গ্রহ, আমাদের একমাত্র আবাস। একে সুস্থ রাখুন।</li>
+            <li className="su-post ">
               পরিবেশ সচেতনতার অংশ হিসেবে আমরা ব্যবহার করছি <Link href="https://greenhost.nl/">Greenhost</Link> সার্ভার,
               যা গ্রিন এনার্জি দ্বারা পরিচালিত এবং পরিবেশ বান্ধব।
             </li>
-            <li>
+            <li className="su-post ">
               ইন্টারনেট নিরাপত্তার জন্য আমরা ব্যবহার করছি <Link href="https://www.cloudflare.com/">Cloudflare</Link>।
             </li>
-            <li>শিশুদের প্রতি সদয় হোন। তাদের বকাঝকা কিংবা মারধর করবেন না।</li>
-            <li>
+            <li className="su-post ">শিশুদের প্রতি সদয় হোন। তাদের বকাঝকা কিংবা মারধর করবেন না।</li>
+            <li className="su-post ">
               আমাদের{' '}
               <Link href="https://play.google.com/store/apps/details?id=com.shongshoy.www.twa">
                 অ্যান্ড্রয়েড অ্যাপ
@@ -36,12 +36,12 @@ export default function Rightsidebar() {
           <span>সংশয় আর্কাইভ থেকে</span>
         </h3>
         <ul>
-          <li id="su-post-2626" className="su-post ">
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%95%e0%a7%81%e0%a6%af%e0%a7%81%e0%a6%95%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%ac%e0%a6%be-%e0%a6%ab%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b8%e0%a6%bf/">
               বহুল প্রচলিত কিছু কুযুক্তি বা ফ্যালাসি বা কুতর্ক বা হেত্বাভাস
             </Link>
           </li>
-          <li id="su-post-480" className="su-post ">
+          <li id="su-post-480" className="su-post">
             <Link href="/posts/%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a7%87%e0%a6%b0-%e0%a6%aa%e0%a7%8c%e0%a6%a4%e0%a7%8d%e0%a6%a4%e0%a6%b2%e0%a6%bf%e0%a6%95-%e0%a6%ad%e0%a6%bf%e0%a6%a4%e0%a7%8d%e0%a6%a4%e0%a6%bf/">
               ইসলামের জুডিও খ্রিস্টান এবং পৌত্তলিক ভিত্তি
             </Link>
@@ -123,50 +123,50 @@ export default function Rightsidebar() {
           <span>সাম্প্রতিক প্রবন্ধ</span>
         </h3>
         <ul>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%b8%e0%a6%be%e0%a6%ab%e0%a6%bf%e0%a7%9f%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%95%e0%a7%87-%e0%a6%a8%e0%a6%ac%e0%a7%80%e0%a6%b0-%e0%a6%97%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%97%e0%a6%be%e0%a6%b2%e0%a6%bf/">
               সাফিয়্যাকে নবীর গালাগালির কারণ
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%a8%e0%a6%be%e0%a6%9f%e0%a6%95-%e0%a6%b6%e0%a7%9f%e0%a6%a4%e0%a6%be%e0%a6%a8%e0%a7%87%e0%a6%b0-%e0%a6%9c%e0%a6%ac%e0%a6%be%e0%a6%a8%e0%a6%ac%e0%a6%a8%e0%a7%8d%e0%a6%a6%e0%a6%bf/">
               নাটকঃ শয়তানের জবানবন্দি
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%b8%e0%a6%be%e0%a6%a7%e0%a6%be%e0%a6%b0%e0%a6%a3-%e0%a6%aa%e0%a7%82%e0%a6%b0%e0%a7%8d%e0%a6%ac%e0%a6%aa%e0%a7%81%e0%a6%b0%e0%a7%81%e0%a6%b7-common-ancestor/">
               সভান্তে প্যাবো এবং প্রাচীন সাধারণ পূর্বপুরুষের (Common ancestor) অসাধারণ বংশধর
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a7%87-%e0%a6%a6%e0%a6%be%e0%a6%b8%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a5%e0%a6%be/">
               ইসলামে অমানবিক দাসপ্রথা
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%87%e0%a6%b8%e0%a6%b2%e0%a6%be%e0%a6%ae%e0%a7%87-%e0%a6%aa%e0%a6%b0%e0%a7%8d%e0%a6%a6%e0%a6%be%e0%a6%aa%e0%a7%8d%e0%a6%b0%e0%a6%a5%e0%a6%be/">
               ইসলামে পর্দাপ্রথা – স্বাধীনা ও দাসীর পার্থক্যকরণ
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%b2%e0%a6%bf%e0%a6%99%e0%a7%8d%e0%a6%97-%e0%a6%85%e0%a6%a7%e0%a7%8d%e0%a6%af%e0%a6%af%e0%a6%bc%e0%a6%a8/">
               লিঙ্গ অধ্যয়নঃ একটি সূচনা
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%ac%e0%a6%be%e0%a6%87%e0%a6%ac%e0%a7%87%e0%a6%b2%e0%a7%87-%e0%a6%ae%e0%a7%81%e0%a6%b9%e0%a6%be%e0%a6%ae%e0%a7%8d%e0%a6%ae%e0%a6%a6/">
               মিথ্যার বেসাতি – বাইবেলে নবী মুহাম্মদ প্রসঙ্গে
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/big-bang-and-before/">13.8 বিলিয়ন বছর পূর্বে মহা বিস্ফোরণের (Big Bang) আগে কি ছিল?</Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%86%e0%a6%9a%e0%a6%b0%e0%a6%af-%e0%a6%86%e0%a6%b9%e0%a6%ae%e0%a6%a6-%e0%a6%b6%e0%a6%b0%e0%a6%ab/">
               আচার্য আহমদ শরীফ: আমাদের ভলতেয়ার
             </Link>
           </li>
-          <li>
+          <li className="su-post ">
             <Link href="/posts/%e0%a6%ae%e0%a7%81%e0%a6%b6%e0%a6%b0%e0%a6%bf%e0%a6%95%e0%a6%a6%e0%a7%87%e0%a6%b0-%e0%a6%9c%e0%a6%a8%e0%a7%8d%e0%a6%af-%e0%a6%ae%e0%a6%be%e0%a6%97%e0%a6%ab%e0%a7%87%e0%a6%b0%e0%a6%be%e0%a6%a4/">
               মুশরিকদের জন্য মাগফেরাত কামনা প্রসঙ্গে ইসলাম
             </Link>
@@ -401,131 +401,131 @@ export default function Rightsidebar() {
           <span>ক্যাটাগরি সমূহ</span>
         </h3>
         <ul>
-          <li className="cat-item cat-item-6">
+          <li className="su-post ">
             <Link href="/categories/sticky/">অবশ্যপাঠ্য</Link> (27)
           </li>
-          <li className="cat-item cat-item-7">
+          <li className="su-post ">
             <Link href="/categories/theism/">আস্তিক্য</Link> (4)
           </li>
-          <li className="cat-item cat-item-463">
+          <li className="su-post ">
             <Link href="/categories/history/">ইতিহাস</Link> (37)
             <ul className="children">
-              <li className="cat-item cat-item-1226">
+              <li className="su-post ">
                 <Link href="/categories/history/religion-in-history/">ইতিহাসে ধর্ম</Link> (16)
               </li>
-              <li className="cat-item cat-item-1225">
+              <li className="su-post ">
                 <Link href="/categories/history/religion-in-bengali-history/">বাংলায় ধর্মের ইতিহাস</Link> (7)
               </li>
             </ul>
           </li>
-          <li className="cat-item cat-item-1257">
+          <li className="su-post ">
             <Link href="/categories/pseudoscience/">ছদ্মবিজ্ঞান</Link> (2)
           </li>
-          <li className="cat-item cat-item-1249">
+          <li className="su-post ">
             <Link href="/categories/origin-of-life/">জীবের উদ্ভব</Link> (5)
           </li>
-          <li className="cat-item cat-item-1198">
+          <li className="su-post ">
             <Link href="/categories/philosophy/">দর্শন</Link> (18)
           </li>
-          <li className="cat-item cat-item-464">
+          <li className="su-post ">
             <Link href="/categories/religion/">ধর্ম</Link> (260)
             <ul className="children">
-              <li className="cat-item cat-item-487">
+              <li className="su-post ">
                 <Link href="/categories/religion/islam/">ইসলাম</Link> (162)
                 <ul className="children">
-                  <li className="cat-item cat-item-506">
+                  <li className="su-post ">
                     <Link href="/categories/religion/islam/error-in-quran/">কোরআনের ভুল</Link> (17)
                   </li>
-                  <li className="cat-item cat-item-1269">
+                  <li className="su-post ">
                     <Link href="/categories/religion/islam/error-in-hadith/">হাদিসের ভুল</Link> (4)
                   </li>
                 </ul>
               </li>
-              <li className="cat-item cat-item-507">
+              <li className="su-post ">
                 <Link href="/categories/religion/christianity/">খ্রিস্টান</Link> (9)
               </li>
-              <li className="cat-item cat-item-511">
+              <li className="su-post ">
                 <Link href="/categories/religion/buddhism/">বৌদ্ধ</Link> (11)
               </li>
-              <li className="cat-item cat-item-497">
+              <li className="su-post ">
                 <Link href="/categories/religion/hinduism/">হিন্দুধর্ম</Link> (73)
               </li>
             </ul>
           </li>
-          <li className="cat-item cat-item-1204">
+          <li className="su-post ">
             <Link href="/categories/psychology-of-religion/">ধর্মের মনস্তত্ত্ব</Link> (10)
           </li>
-          <li className="cat-item cat-item-1238">
+          <li className="su-post ">
             <Link href="/categories/sociology-of-religion/">ধর্মের সমাজতত্ত্ব</Link> (6)
           </li>
-          <li className="cat-item cat-item-8">
+          <li className="su-post ">
             <Link href="/categories/feminism/">নারীবাদ</Link> (63)
             <ul className="children">
-              <li className="cat-item cat-item-474">
+              <li className="su-post ">
                 <Link href="/categories/feminism/women-in-islam/">ইসলামে নারী</Link> (34)
               </li>
-              <li className="cat-item cat-item-1063">
+              <li className="su-post ">
                 <Link href="/categories/feminism/women-in-hinduism/">হিন্দুধর্মে নারী</Link> (10)
               </li>
             </ul>
           </li>
-          <li className="cat-item cat-item-502">
+          <li className="su-post ">
             <Link href="/categories/response/">প্রতিক্রিয়া</Link> (60)
           </li>
-          <li className="cat-item cat-item-9">
+          <li className="su-post ">
             <Link href="/categories/question-answer/">প্রশ্নোত্তর</Link> (58)
           </li>
-          <li className="cat-item cat-item-1264">
+          <li className="su-post ">
             <Link href="/categories/propaganda/">প্রোপাগান্ডা</Link> (25)
           </li>
-          <li className="cat-item cat-item-10">
+          <li className="su-post ">
             <Link href="/categories/books/">বই</Link> (36)
           </li>
-          <li className="cat-item cat-item-11">
+          <li className="su-post ">
             <Link href="/categories/science/">বিজ্ঞান</Link> (85)
             <ul className="children">
-              <li className="cat-item cat-item-1263">
+              <li className="su-post ">
                 <Link href="/categories/science/archeology/">আর্কিওলজি</Link> (2)
               </li>
-              <li className="cat-item cat-item-1262">
+              <li className="su-post ">
                 <Link href="/categories/science/genetics/">জেনেটিক্স</Link> (3)
               </li>
-              <li className="cat-item cat-item-1221">
+              <li className="su-post ">
                 <Link href="/categories/science/physics/">পদার্থবিদ্যা</Link> (1)
               </li>
-              <li className="cat-item cat-item-539">
+              <li className="su-post ">
                 <Link href="/categories/science/evolution/">বিবর্তন</Link> (22)
               </li>
-              <li className="cat-item cat-item-1810">
+              <li className="su-post ">
                 <Link href="/categories/science/big-bang/">বৃহৎ সম্প্রসারণ</Link> (3)
               </li>
-              <li className="cat-item cat-item-458">
+              <li className="su-post ">
                 <Link href="/categories/science/psychology/">মনোবিজ্ঞান</Link> (14)
               </li>
-              <li className="cat-item cat-item-467">
+              <li className="su-post ">
                 <Link href="/categories/science/space/">মহাকাশ</Link> (5)
               </li>
             </ul>
           </li>
-          <li className="cat-item cat-item-12">
+          <li className="su-post ">
             <Link href="/categories/human-rights/">মানবাধিকার</Link> (44)
           </li>
-          <li className="cat-item cat-item-1248">
+          <li className="su-post ">
             <Link href="/categories/rationalism/">যুক্তিবাদ</Link> (31)
           </li>
-          <li className="cat-item cat-item-13">
+          <li className="su-post ">
             <Link href="/categories/editorial/">সম্পাদকীয়</Link> (87)
           </li>
-          <li className="cat-item cat-item-14">
+          <li className="su-post ">
             <Link href="/categories/skepticism/">সংশয়বাদ</Link> (51)
           </li>
-          <li className="cat-item cat-item-446">
+          <li className="su-post ">
             <Link href="/categories/sticky-notes/">স্টিকি</Link> (121)
           </li>
-          <li className="cat-item cat-item-1175">
+          <li className="su-post ">
             <Link href="/categories/thoughts/">স্বতন্ত্র ভাবনা</Link> (14)
           </li>
-          <li className="cat-item cat-item-15">
+          <li className="su-post ">
             <Link href="/categories/satire/">স্যাটায়ার</Link> (18)
           </li>
         </ul>
