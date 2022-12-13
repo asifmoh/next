@@ -12,6 +12,8 @@ import { getAllMenus } from 'lib/menus';
 import 'styles/globals.scss';
 import 'styles/wordpress.scss';
 import 'styles/fonts.scss';
+import 'styles/style.min.css';
+import 'styles/cm.css';
 
 import variables from 'styles/_variables.module.scss';
 

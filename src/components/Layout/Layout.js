@@ -8,6 +8,7 @@ import { helmetSettingsFromMetadata } from 'lib/site';
 import Nav from 'components/Nav';
 import Main from 'components/Main';
 import Footer from 'components/Footer';
+import Rightsidebar from './Rightsidebar';
 
 const Layout = ({ children }) => {
   const router = useRouter();
@@ -33,7 +34,7 @@ const Layout = ({ children }) => {
           href: '/feed.xml',
         },
 
-        // Favicon sizes and manifest generated via https://favicon.io/
+        // Favicon sizes and manifest generatedd via https://favicon.io/
 
         {
           rel: 'apple-touch-icon',
@@ -64,11 +65,27 @@ const Layout = ({ children }) => {
     <div className={styles.layoutContainer}>
       <Helmet {...helmetSettings} />
 
-      <Nav />
+      <div id="page" className="hfeed site">
+        <a className="skip-link screen-reader-text" href="#main">
+          Skip to content
+        </a>
 
-      <Main>{children}</Main>
+        <Nav />
 
-      <Footer />
+        <Main>
+          {' '}
+          <div className="main-content-section clearfix">
+            <div id="primary">
+              <div id="content" className="clearfix">
+                {children}
+              </div>
+            </div>{' '}
+            <Rightsidebar />
+          </div>
+        </Main>
+
+        <Footer />
+      </div>
     </div>
   );
 };

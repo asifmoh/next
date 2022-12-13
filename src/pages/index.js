@@ -10,28 +10,18 @@ import PostCard from 'components/PostCard';
 import Pagination from 'components/Pagination';
 
 import styles from 'styles/pages/Home.module.scss';
+import Featured from './Featured';
 
 export default function Home({ posts, pagination }) {
   const { metadata = {} } = useSite();
-  const { title, description } = metadata;
+  const { title } = metadata;
 
   return (
     <Layout>
       <WebsiteJsonLd siteTitle={title} />
 
       <Header>
-        <h1
-          dangerouslySetInnerHTML={{
-            __html: title,
-          }}
-        />
-
-        <p
-          className={styles.description}
-          dangerouslySetInnerHTML={{
-            __html: description,
-          }}
-        />
+        <Featured />
       </Header>
 
       <Section>
