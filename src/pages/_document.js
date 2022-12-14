@@ -32,7 +32,11 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html {...this.helmetHtmlAttrComponents}>
-        <Head>{this.helmetHeadComponents}</Head>
+        <Head>
+          {this.helmetHeadComponents}
+          <link rel="canonical" href="https://www.shongshoy.com" />
+          <meta name="robots" content="noindex,nofollow" />
+        </Head>
         <body {...this.helmetBodyAttrComponents}>
           <Main />
           <NextScript />

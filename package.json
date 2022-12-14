@@ -1,9 +1,9 @@
 {
-  "name": "next-wordpress-starter",
-  "homepage": "https://next-wordpress-starter.spacejelly.dev",
+  "name": "Shongshoy",
+  "homepage": "https://www.shongshoy.org",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Colby Fayock <hello@colbyfayock.com>",
+  "author": "Asif Mohiuddin <info@shongshoy.com>",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -54,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/next-wordpress-starter"
+    "url": "https://github.com/asifmoh/next.git"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/next-wordpress-starter/issues"
+    "url": "https://github.com/asifmoh/next.git/issues"
   }
 }
