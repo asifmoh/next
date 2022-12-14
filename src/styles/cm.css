@@ -5,7 +5,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-size:100%;
     font-style:inherit;
     font-weight:inherit;
-    margin:0;
     outline:0;
     padding:0;
     vertical-align:baseline
@@ -169,7 +168,7 @@ a:focus,a:active,a:hover{
 }
 .inner-wrap{
     margin:0 auto;
-    max-width:1140px
+    max-width:75rem;
 }
 .tg-one-half{
     float:left;
@@ -185,7 +184,7 @@ body{
     background-color:#fffcfc;
     padding-top:10px;
     padding-bottom:10px;
-    background-size:cover
+    background-size:cover;
 }
 ul{
     list-style:none
@@ -625,10 +624,7 @@ li.default-menu{
     background:#289dcc;
     color:#fff
 }
-.default-wp-page{
-    clear:both;
-    margin-top:30px
-}
+
 .default-wp-page .previous{
     float:left;
     padding:30px 0
@@ -2244,9 +2240,7 @@ i.fa-arrow-up,i.fa-arrow-down{
     float:right;
     width:27.19298245%
 }
-.main-content-section{
-    padding-top:20px
-}
+
 .main-content-section .tg-one-half{
     width:48.75%;
     padding-bottom:0;

@@ -8,8 +8,8 @@
 html,
 body {
   font-family: Kalpurush, Arial, sans-serif, -apple-system, BlinkMacSystemFont !important;
-  padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 p {
@@ -151,15 +151,6 @@ figcaption {
 }
 
 /* Custom utilities */
-
-html {
-  margin-top: 32px !important;
-}
-@media screen and (max-width: 782px) {
-  html {
-    margin-top: 46px !important;
-  }
-}
 
 body {
   --wp--preset--color--black: #000000;

@@ -73,7 +73,6 @@ const Layout = ({ children }) => {
         <Nav />
 
         <Main>
-          {' '}
           <div className="main-content-section clearfix">
             <div id="primary">
               <div id="content" className="clearfix">
