@@ -75,7 +75,7 @@ const Layout = ({ children }) => {
         <Main>
           <div className="main-content-section clearfix">
             <div id="primary">
-              <div id="content" className="clearfix">
+              <div id="cmcontent" className="clearfix">
                 {children}
               </div>
             </div>{' '}

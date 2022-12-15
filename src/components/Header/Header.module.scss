@@ -40,4 +40,8 @@
   figure {
     margin: auto;
   }
+  @media (max-width: 480px) {
+    //display: none;
+    width: 40rem;
+  }
 }
