@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
         <Head>
           {this.helmetHeadComponents}
           <link rel="canonical" href="https://www.shongshoy.com" />
-          <meta name="robots" content="noindex,nofollow" />
+          <meta name="robots" content="noindex" />
         </Head>
         <body {...this.helmetBodyAttrComponents}>
           <Main />

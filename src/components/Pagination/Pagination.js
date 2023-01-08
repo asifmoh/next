@@ -48,7 +48,9 @@ const Pagination = ({ pagesCount, currentPage, basePath, addCanonical = true }) 
   return (
     <>
       <Helmet>
-        {addCanonical && !hasPreviousPage && <link rel="canonical" href={`${homepage}${basePath}`} legacyBehavior />}
+        {addCanonical && !hasPreviousPage && (
+          <link rel="canonical" href={`${homepage}${basePath}`} content="noindex" legacyBehavior />
+        )}
         {hasPreviousPage && <link rel="prev" href={`${homepage}${path}${currentPage - 1}`} legacyBehavior />}
         {hasNextPage && <link rel="next" href={`${homepage}${path}${currentPage + 1}`} legacyBehavior />}
       </Helmet>
